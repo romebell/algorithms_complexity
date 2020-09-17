@@ -5,7 +5,7 @@ def loglinear(n):
         return
     for i in range(1, n):
         # something
-    
+        pass
     loglinear(n / 2)
     loglinear(n / 2)
 
