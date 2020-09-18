@@ -28,4 +28,4 @@ function example6(n) {
 
 
 // notice similar, if not the same as example5.js
-// O(4n)
+// O(4^n)
