@@ -14,23 +14,26 @@ def cubic(n):
 
 # we have to look for nested loops where both depend on the size of our input
 
-
-# function quadratic(n) {
-#     for (let i = 1; i <= n; i++) {
-#         for (let j = 1; j <= n; j++) {
-#             # something
-#         }
-#     }
-# }
+```js
+function quadratic(n) {
+    for (let i = 1; i <= n; i++) {
+        for (let j = 1; j <= n; j++) {
+            // something
+        }
+    }
+}
+```
 
 
 # Polynomial - O(n^3)
-# function cubic(n) {
-#     for (let i = 1; i <= n; i++) {
-#             for (let j = 1; j <= n; j++) {
-#                 for (let k = 1; k <= n; k++) {
-#                     # something
-#                 }
-#             }
-#         }
-# }
+```js
+function cubic(n) {
+    for (let i = 1; i <= n; i++) {
+            for (let j = 1; j <= n; j++) {
+                for (let k = 1; k <= n; k++) {
+                    // something
+                }
+            }
+        }
+}
+```
