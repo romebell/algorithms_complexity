@@ -10,7 +10,9 @@ def logarithmic(n):
 
 
 # Javascript
-# function logarithmic(n) {
-#     if (n <= 1) return
-#     logarithmic(n / 2)
-# }
+```js
+function logarithmic(n) {
+    if (n <= 1) return
+    logarithmic(n / 2)
+}
+```
