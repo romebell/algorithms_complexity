@@ -12,11 +12,12 @@ def factorial_problem(n):
 # ref Graph
 
 # Javascript
-# function factorialProblem(n) {
-#     if (n === 1) return;
+```js
+function factorialProblem(n) {
+    if (n === 1) return;
 
-#     for (let i = 1; i <= n; i++) {
-#         factorialProblem(n - 1)
-#     }
-# }
-
+    for (let i = 1; i <= n; i++) {
+        factorialProblem(n - 1)
+    }
+}
+```
