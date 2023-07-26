@@ -15,17 +15,19 @@ def linear_2(n):
 # 10 -> 9 -> 8 -> 7 -> 6 ...
 
 # JavaScript
-# function linear_1(n) {
-#     for (let i = 1; i <= n; i++) {
-#         # something
-#     }
-# }
+```js
+function linear_1(n) {
+    for (let i = 1; i <= n; i++) {
+        something
+    }
+}
 
-# function linear_2(n) {
-#     if (n === 1) {
-#         return;
-#     }
+function linear_2(n) {
+    if (n === 1) {
+        return;
+    }
 
-#     linear_2(n - 1);
-# }
+    linear_2(n - 1);
+}
+```
 
