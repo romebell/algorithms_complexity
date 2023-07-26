@@ -21,11 +21,13 @@ def loglinear(n):
 #      1   1   1  1  1  1   1   1        - 8
 # log2(8)
 
-# function loglinear(n) {
-#     if (n <= 1) return;
-#     for (let i = 1; i <= n; i++) {
-#         # something
-#     }
-#     loglinear(n / 2);
-#     loglinear(n / 2);
-# }
+```js
+function loglinear(n) {
+    if (n <= 1) return;
+    for (let i = 1; i <= n; i++) {
+        // something
+    }
+    loglinear(n / 2);
+    loglinear(n / 2);
+}
+```
